@@ -1,7 +1,7 @@
-import { useCounter,useFetch } from "../hooks";
+import { useCounter } from "../hooks/useCounter";
 import { LoadingQuote } from "./LoadingQuote";
 import { Quote } from "./Quote";
-
+import { useFetch } from "../hooks/useFetch";
 export const MultipleCustomHooks = () => {
 
       const {counter,increment} = useCounter()
